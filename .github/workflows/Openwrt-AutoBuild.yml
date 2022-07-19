@@ -176,8 +176,8 @@ jobs:
 
     - name: Defconfig
       run: |
-        cat .config
         cd openwrt
+        cat .config
         make defconfig
         cat .config
 
